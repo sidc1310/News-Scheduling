@@ -10,7 +10,7 @@ require('connect.php');
         
 
     }
-    else if($_SESSION['type']=="2")
+    else if($_SESSION['type1']=="2")
     {
        header('Refresh:0 url=agent.php');
     }
